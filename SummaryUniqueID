@@ -1,3 +1,4 @@
+patch summary ZephiraZ.fishTestMod.CP
 [Content Patcher]
 =====================
 ==  Global tokens  ==
@@ -65,6 +66,20 @@
       SkillLevel                                          | [X] Combat:0, Farming:0, Fishing:0, Foraging:0, Luck:0, Mining:0
       Weather                                             | [X] Rain
 
+======================
+== Custom locations ==
+======================
+The following custom locations were created by content packs.
+
+(Filtered to content pack ID: ZephiraZ.fishTestMod.CP.)
+
+[CP] fishTestMod:
+-----------------
+
+   location name          | status
+   ---------------------  | ------
+   Custom_ZZ_fishTestMap  | [X] ok
+
 
 =====================
 == Content patches ==
@@ -74,4 +89,20 @@ The following patches were loaded. For each patch:
   - 'conditions' shows whether the patch matches with the current conditions (see details for the reason if not). If this is unexpectedly false, check (a) the conditions above and (b) your Where field.
   - 'applied' shows whether the target asset was loaded and patched. If you expected it to be loaded by this point but it's false, double-check (a) that the game has actually loaded the asset yet, and (b) your Targets field is correct.
 
-(Filtered to content pack ID: your.uniqueID.)
+(Filtered to content pack ID: ZephiraZ.fishTestMod.CP.)
+
+
+[CP] fishTestMod:
+-----------------
+
+   Patches:
+      loaded  | conditions | applied | name + details
+      ------- | ---------- | ------- | --------------
+      [X]     | [ ]        | [ ]     | EditData Data/Fish  // Invalid name for Object: blueJellyfish; Invalid name for Object: orangeJellyfish; Invalid name for Object: pinkJellyfish; Invalid name for Object: purpleJellyfish; Invalid name for Object: guardian; Invalid name for Object: elderGuardian
+      [X]     | [ ]        | [ ]     | EditData Data/Locations  // Invalid name for Object: blueJellyfish; Invalid name for Object: orangeJellyfish; Invalid name for Object: pinkJellyfish; Invalid name for Object: purpleJellyfish; Invalid name for Object: guardian; Invalid name for Object: elderGuardian
+      [X]     | [X]        | [X]     | EditData Data/ObjectContextTags
+
+   Current changes:
+      asset name             | changes
+      ---------------------- | -------
+      Data/ObjectContextTags | changed entries
