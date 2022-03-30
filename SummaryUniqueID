@@ -1,0 +1,77 @@
+[Content Patcher]
+=====================
+==  Global tokens  ==
+=====================
+   Content Patcher:
+
+      token name                                          | value
+      --------------------------------------------------- | -----
+      ChildGenders                                        | [X]
+      ChildNames                                          | [X]
+      Count                                               | [X] 0
+      DailyLuck                                           | [X] -0.052
+      Day                                                 | [X] 3
+      DayEvent                                            | [X]
+      DayOfWeek                                           | [X] Wednesday
+      DaysPlayed                                          | [X] 3
+      FarmCave                                            | [X] None
+      FarmhouseUpgrade                                    | [X] 0
+      FarmName                                            | [X] f
+      FarmType                                            | [X] Standard
+      FormatAssetName                                     | [X] (token returns a dynamic value)
+      HasActiveQuest                                      | [X] 9
+      HasCaughtFish                                       | [X]
+      HasConversationTopic                                | [X] Introduction
+      HasDialogueAnswer                                   | [X]
+      HasProfession                                       | [X]
+      HasReadLetter                                       | [X] button_tut_1
+      HasSeenEvent                                        | [X] 60367
+      HasValue                                            | [X] False
+      HasWalletItem                                       | [X]
+      HavingChild                                         | [X]
+      IsCommunityCenterComplete                           | [X] False
+      IsJojaMartComplete                                  | [X] False
+      IsMainPlayer                                        | [X] True
+      IsOutdoors                                          | [X] False
+      Language                                            | [X] en
+      LocationContext                                     | [X] Valley
+      LocationName                                        | [X] Custom_ZZ_fishTestMap
+      LocationOwnerId                                     | [X]
+      LocationUniqueName                                  | [X] Custom_ZZ_fishTestMap
+      Lowercase                                           | [X]
+      Merge                                               | [X]
+      PathPart                                            | [X] (token returns a dynamic value)
+      PlayerGender                                        | [X] Male
+      PlayerName                                          | [X] f
+      PreferredPet                                        | [X] Cat
+      Pregnant                                            | [X]
+      Query                                               | [X] (token returns a dynamic value)
+      Random                                              | [X] (token returns a dynamic value)
+      Range                                               | [X] (token returns a dynamic value)
+      Render                                              | [X]
+      Roommate                                            | [X]
+      Round                                               | [X] (token returns a dynamic value)
+      Season                                              | [X] spring
+      Spouse                                              | [X]
+      Time                                                | [X] 0600
+      Uppercase                                           | [X]
+      Year                                                | [X] 1
+      HasCookingRecipe                                    | [X] Bacon, Black Tea, Broth, Caramel, Cooked Alpaca Meat, Cooked Beast Meat, Cooked Beef, Cooked Bird Meat, Cooked Bison Meat, Cooked Boar, Cooked Chevon,... (use `patch summary full` to see other values)
+      HasCraftingRecipe                                   | [X] Campfire, Canning Machine, Chest, Cobblestone Path, DNA Synthesizer, Espresso Machine, Extruder, Foreign Cask, Gate, Gravel Path, Grinder, Ice Cream M... (use `patch summary full` to see other values)
+      HasFlag                                             | [X] button_tut_1, MailFrameworkPlaceholderId, spring_2_1
+      HasMod                                              | [X] aedenthorn.ExtraMapLayers, Arknir27.Lavril, Arknir27.VoidCC, BHArtifacts, BHCC.Buffaloes, BHForageables, BHMachinerules, blueberry.BlueberryMushroomAu... (use `patch summary full` to see other values)
+      Hearts                                              | [X] Abigail:0, Aguar:0, Aideen:0, Alex:0, Alissa:0, Andy:0, Anton:0, Ariah:0, Bert:0, Blair:0, Carmen:0, Caroline:0, Claire:0, Clint:0, Corine:0, Demetriu... (use `patch summary full` to see other values)
+      Relationship                                        | [X] Abigail:Unmet, Aguar:Unmet, Aideen:Unmet, Alex:Unmet, Alissa:Unmet, Andy:Unmet, Anton:Unmet, Ariah:Unmet, Bert:Unmet, Blair:Unmet, Carmen:Unmet, Carol... (use `patch summary full` to see other values)
+      SkillLevel                                          | [X] Combat:0, Farming:0, Fishing:0, Foraging:0, Luck:0, Mining:0
+      Weather                                             | [X] Rain
+
+
+=====================
+== Content patches ==
+=====================
+The following patches were loaded. For each patch:
+  - 'loaded' shows whether the patch is loaded and enabled (see details for the reason if not).
+  - 'conditions' shows whether the patch matches with the current conditions (see details for the reason if not). If this is unexpectedly false, check (a) the conditions above and (b) your Where field.
+  - 'applied' shows whether the target asset was loaded and patched. If you expected it to be loaded by this point but it's false, double-check (a) that the game has actually loaded the asset yet, and (b) your Targets field is correct.
+
+(Filtered to content pack ID: your.uniqueID.)
