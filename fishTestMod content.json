@@ -1,0 +1,54 @@
+{
+    "Format": "1.25.0",
+    "CustomLocations": [
+        //Loads custom locations
+        {
+            "Name": "Custom_fishTestMap",
+            "FromMapFile": "assets/Locations/Outdoors/fishTestMap.tmx"
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "Entries": {
+                "rawFish": "color_gold, fish_rawfish, fish_lake",
+                "rawClownfish": "color_gold, fish_rawfish, fish_lake",
+                "rawPufferfish": "color_gold, fish_rawfish, fish_lake",
+                "rawSalmon": "color_gold, fish_rawfish, fish_lake",
+                "blueJellyfish": "color_gold, fish_rawfish, fish_lake",
+                "orangeJellyfish": "color_gold, fish_rawfish, fish_lake",
+                "pinkJellyfish": "color_gold, fish_rawfish, fish_lake",
+                "purpleJellyfish": "color_gold, fish_rawfish, fish_lake",
+                "guardian": "color_gold, fish_rawfish, fish_lake",
+                "elderGuardian": "color_gold, fish_rawfish, fish_lake"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "{{spacechase0.JsonAssets/ObjectId:rawFish}}": "rawFish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:rawClownfish}}": "rawClownfish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:rawPufferfish}}": "rawPufferfish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:rawSalmon}}": "rawSalmon/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:blueJellyfish}}": "Blue Jellyfish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:orangeJellyfish}}": "Orange Jellyfish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:pinkJellyfish}}": "Pink Jellyfish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:purpleJellyfish}}": "Purple Jellyfish/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:guardian}}": "Guardian/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0",
+                "{{spacechase0.JsonAssets/ObjectId:elderGuardian}}": "Elder Guardian/15/smooth/1/12/600 2400/spring summer fall winter/both/689/2/0.4/0.1/0"
+            },
+            "When": {
+                "HasMod |contains=spacechase0.JsonAssets": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_fishTestMap": "-1/-1/-1/-1/{{spacechase0.JsonAssets/ObjectId:elderGuardian}} -1 {{spacechase0.JsonAssets/ObjectId:guardian}} -1 {{spacechase0.JsonAssets/ObjectId:purpleJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:pinkJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:orangeJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:blueJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1/{{spacechase0.JsonAssets/ObjectId:elderGuardian}} -1 {{spacechase0.JsonAssets/ObjectId:guardian}} -1 {{spacechase0.JsonAssets/ObjectId:purpleJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:pinkJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:orangeJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:blueJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1/{{spacechase0.JsonAssets/ObjectId:elderGuardian}} -1 {{spacechase0.JsonAssets/ObjectId:guardian}} -1 {{spacechase0.JsonAssets/ObjectId:purpleJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:pinkJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:orangeJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:blueJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1/{{spacechase0.JsonAssets/ObjectId:elderGuardian}} -1 {{spacechase0.JsonAssets/ObjectId:guardian}} -1 {{spacechase0.JsonAssets/ObjectId:purpleJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:pinkJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:orangeJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:blueJellyfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1 {{spacechase0.JsonAssets/ObjectId:rawFish}} -1 {{spacechase0.JsonAssets/ObjectId:rawClownfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawPufferfish}} -1 {{spacechase0.JsonAssets/ObjectId:rawSalmon}} -1/107 .01 378 .08 579 .1 588 .1 581 .1 583 .1 102 .15 390 .25 330 1"
+            }
+        }
+    ]
+}
